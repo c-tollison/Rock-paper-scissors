@@ -15,10 +15,47 @@
     <script src="scripts/script.js"
             defer></script>
 </head>
-<p>merge</p>
 
 <body>
+    <div class="container">
+        <div class="top-container">
+            <div class="top-top">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+            <div class="top-bottom">
+                <p id="winner-announcement"></p>
+            </div>
+        </div>
+        <div class="middle-container">
+            <div class="score-container">
+                <div class="score-top">
+                    <p>Player</p>
+                </div>
+                <div class="score-bottom">
+                    <div id="player-score"></div>
+                </div>
+            </div>
+            <div class="score-container">
+                <div class="score-top">
+                    <p>Computer</p>
+                </div>
+                <div class="score-bottom">
+                    <div id="computer-score"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <button class="weapon-choice"
+                    id="rock">Rock</button>
+            <button class="weapon-choice"
+                    id="paper">Paper</button>
+            <button class="weapon-choice"
+                    id="scissors">Scissors</button>
+        </div>
 
+        <div class="very-bottom"><button class="reset-button"
+                    disabled>Reset</button></div>
+    </div>
 </body>
 
 </html>
